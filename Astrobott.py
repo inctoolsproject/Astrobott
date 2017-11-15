@@ -114,7 +114,7 @@ Hmid = ke.getProfile().mid
 Imid = ku.getProfile().mid
 
 Bots=[mid,Amid,Bmid,Cmid,Dmid,Emid,Fmid,Gmid,Hmid,Imid,"ua87810961d8822889217ef0eb64262cf","u64a735cbdc05ec667b0ee166f7a119a9","u2a95e516ac18551368f62fb9f131a760","u2a95e516ac18551368f62fb9f131a760","uee36a80053c5f5814787d2858422d479","ua87810961d8822889217ef0eb64262cf"]
-admin=["ua87810961d8822889217ef0eb64262cf","u64a735cbdc05ec667b0ee166f7a119a9","u2a95e516ac18551368f62fb9f131a760","uee36a80053c5f5814787d2858422d479","ua87810961d8822889217ef0eb64262cf",mid,Amid,Bmid,Cmid,Dmid,Emid,Fmid,Gmid,Hmid,Imid]
+admin=["ua87810961d8822889217ef0eb64262cf","u64a735cbdc05ec667b0ee166f7a119a9","u2a95e516ac18551368f62fb9f131a760","uee36a80053c5f5814787d2858422d479","ua87810961d8822889217ef0eb64262cf"]
 wait = {
     'contact':False,
     'autoJoin':True,
@@ -122,7 +122,7 @@ wait = {
     'leaveRoom':True,
     'timeline':False,
     'autoAdd':False,
-    'message':"Thanks for add me! Follow my instagram instagram.com/michaelf.s,
+    'message':"Thanks for add me! Follow my instagram instagram.com/michaelf.s"
     "lang":"JP",
     "comment":"Thanks for add me",
     "commentOn":False,
@@ -796,7 +796,7 @@ def bot(op):
             msg = op.message
 
 
-            if msg.toType == 1:
+            if msg.toType == 26:
                 if wait["leaveRoom"] == True:
                     cl.leaveRoom(msg.to)
             if msg.contentType == 16:
@@ -2337,13 +2337,13 @@ def bot(op):
       #-------------Fungsi Balesan Respon Finish---------------------#
 
        #-------------Fungsi Speedbot Start---------------------#
-           elif msg.text in ["Spp","SPP"]:
-                cl.sendText(msg.to, "Sebentar Astro...")
-                start = time.time()
-                time.sleep(0.0001)
-                elapsed_time = time.time() - start
-                cl.sendText(msg.to, "%sseconds" % (elapsed_time))    
-                print "[Command]Speed palsu Excuted"
+           #elif msg.text in ["Spp","SPP"]:
+                #cl.sendText(msg.to, "Sebentar Astro...")
+                #start = time.time()
+                #time.sleep(0.0001)
+                #elapsed_time = time.time() - start
+                #cl.sendText(msg.to, "%sseconds" % (elapsed_time))    
+                #print "[Command]Speed palsu Excuted"
             elif msg.text in ["zzz","Bot Astro"]:
                 cl.sendText(msg.to, "Sebentar Astro...")
                 start = time.time()
