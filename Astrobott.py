@@ -10,7 +10,7 @@ import time,random,sys,json,codecs,threading,glob,re
 #kk.loginResult()
 
 cl = LINETCR.LINE
-cl.login(token="EmNPPE6wD3fhhMpr4Ore.HLO8oW/uzLdoMSEGV/eJtG.WieA8BSPnjl0xtmMCNnTiN3dhTCywG6POiP7miGeoVA=")
+cl.login(qr=True)
 cl.loginResult()
 
 ki = LINETCR.LINE()
