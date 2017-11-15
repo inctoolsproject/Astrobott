@@ -5,12 +5,12 @@ from LINETCR.lib.curve.ttypes import *
 from datetime import datetime
 import time,random,sys,json,codecs,threading,glob,re
 
-#kk = LINETCR.LINE()
+#kk = LINETCR.LINE
 #kk.login(qr=True)
 #kk.loginResult()
 
-cl = LINETCR.LINE()
-cl.login(token="Emvdxk3reGleWwNpzrve.HLO8oW/uzLdoMSEGV/eJtG.aZNz99nCjI9AJc8TLgLyt1nRxfagr8TPXU0TXLR1lSs=")
+cl = LINETCR.LINE
+cl.login(token="EmNPPE6wD3fhhMpr4Ore.HLO8oW/uzLdoMSEGV/eJtG.WieA8BSPnjl0xtmMCNnTiN3dhTCywG6POiP7miGeoVA=")
 cl.loginResult()
 
 ki = LINETCR.LINE()
