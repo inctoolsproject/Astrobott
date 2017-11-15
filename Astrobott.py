@@ -9,8 +9,8 @@ import time,random,sys,json,codecs,threading,glob,re
 #kk.login(qr=True)
 #kk.loginResult()
 
-cl = LINETCR.LINE
-cl.login(qr=True)
+cl = LINETCR.LINE()
+cl.login(token="EmDxuATN6dDA9d6wj29e.HLO8oW/uzLdoMSEGV/eJtG.ucrCAZxtoaYX0f2aRhjQplamRgQKUgcWdDGJdmIOVB0=")
 cl.loginResult()
 
 ki = LINETCR.LINE()
