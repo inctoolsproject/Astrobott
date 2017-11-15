@@ -122,7 +122,7 @@ wait = {
     'leaveRoom':True,
     'timeline':False,
     'autoAdd':False,
-    'message':"Thanks for add me! Follow my instagram instagram.com/michaelf.s"
+    'message':"Thanks for add me! Follow my instagram instagram.com/michaelf.s",
     "lang":"JP",
     "comment":"Thanks for add me",
     "commentOn":False,
